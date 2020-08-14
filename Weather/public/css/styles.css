@@ -1,0 +1,87 @@
+body {
+    color: #6d3838;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 3px solid #72db36;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 3px solid #57d332;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #49c249;
+    text-align: center;
+ }
+header ul a {
+    display: block;
+    text-decoration:none;
+    color: rgb(49, 45, 45);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius:5px;
+ }
+ul li a:hover {
+    color: rgb(218, 27, 27);
+    border : 2px solid #000;
+}
+
+ul li a:visited {
+    color: rgb(17, 20, 226);
+}
+.grid-container form,
+.grid-container form div {
+    display: inline;
+}
+

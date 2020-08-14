@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <p>Get weather Details by providing Location Name</p>
+
+        <div class="grid-container">
+                <form class ="GetLocation">
+                    <input id="ClearLocation" placeholder="Location" >
+                    <button>Search</button>
+                </form>
+        </div>    
+        <div>
+            <p id="Error-Message-Display"></p>
+        </div>
+        <div>
+            <p id="SearchLoaction" ></p>
+            <p id="FoundLocation"></p>
+            <p id="Weather-Message-Display"></p>
+
+        </div>
+        
+    </div>
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
